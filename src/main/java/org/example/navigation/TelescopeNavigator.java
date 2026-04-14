@@ -1,4 +1,4 @@
-package org.example;
+package org.example.navigation;
 
 public class TelescopeNavigator {
 

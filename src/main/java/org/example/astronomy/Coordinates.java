@@ -1,6 +1,4 @@
-package org.example;
-
-import java.security.PublicKey;
+package org.example.astronomy;
 
 public class Coordinates {
 private static final long epochTime=946728000000L;

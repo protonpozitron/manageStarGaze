@@ -3,6 +3,7 @@ package org.example;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.example.astronomy.Coordinates;
 
 /**
  * Unit test for simple App.
@@ -33,7 +34,7 @@ public class AppTest
      */
     public void testApp()
     {
-        double d =Coordinates.getLocalTime(55.966)/15;
+        double d = Coordinates.getLocalTime(55.966)/15;
          int h = (int)d;
         int m = (int)((d-h)*60);
         int s = (int)(((d-h)*60)-m)*60;
